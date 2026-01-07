@@ -177,7 +177,7 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
-    color: #fff;
+    color: #000;
     font-size: 13px;
     line-height: 16px;
     font-weight: 600;
@@ -394,7 +394,7 @@ li{
     background: #f9f6f0;
     border: 1px solid #f9f6f0;  
     border-radius: 50%;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 30px;
     font-weight: 600;
     line-height: 58px;
@@ -530,7 +530,7 @@ li{
     transition: all 500ms ease;
 }
 .accordion-box .accordion .accord-btn h4 {
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;
@@ -932,7 +932,7 @@ select:focus {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 14px;
     font-weight: 400;
     line-height: 38px;
@@ -1342,7 +1342,7 @@ select:focus {
     width: 100%;
     padding: 0 100px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .5);
     backdrop-filter: blur(10px);
 }
 .header-upper .container-box .outer-box {
@@ -1825,7 +1825,7 @@ select:focus {
     padding-right: 10px;
 }
 .header-lawer-left ul li b{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 15px;
     font-weight: 600;
 }
@@ -1838,7 +1838,7 @@ select:focus {
     transition-delay: 0.1s;
 }
 .header-lawer-left ul li a:hover{
-    color: #A8D9EA;    
+    color: #ffae64;    
 }
 
 
@@ -2034,7 +2034,7 @@ select:focus {
 .main-slider .content .btn-box a{
     position: relative;
     display: inline-block;
-    color: #ffffff;
+    color: #000;
     font-size: 13px;
     line-height: 16px;
     font-weight: 600;
@@ -2076,7 +2076,7 @@ select:focus {
     border-radius: 50%;
     border: none;
     text-align: center;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 30px;
     line-height: 60px;
     font-weight: 700;
@@ -2104,7 +2104,7 @@ select:focus {
     border-radius: 50%;
     border: none;
     text-align: center;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 30px;
     line-height: 60px;
     font-weight: 700;
@@ -2206,7 +2206,7 @@ select:focus {
     letter-spacing: 3px;
 } 
 .about-style1-left-content .text-holder h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 60px;
     line-height: 1.2em;
     font-weight: 800;
@@ -2252,7 +2252,7 @@ select:focus {
     text-transform: uppercase;
 }
 .boats-skipper-search-box .title h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 1.2em;
     font-weight: 800;
@@ -2491,7 +2491,7 @@ select:focus {
 .yachts-area{
     position: relative;
     display: block;
-    background: #A8D9EA;
+    background: #eee;
     padding: 120px 0 120px;
     z-index: 1;
 }
@@ -2543,13 +2543,13 @@ select:focus {
     z-index: 2;
 }
 .siingle-yachts-box .img-holder .rate-box h5{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
 }
 .siingle-yachts-box .img-holder .rate-box h6{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 10px;
     line-height: 12px;
     font-weight: 600;
@@ -2578,7 +2578,7 @@ select:focus {
     margin: 0 0 3px;
 }
 .siingle-yachts-box .title-holder h2 a{
-    color: #A8D9EA;
+    color: #ffae64;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -2608,7 +2608,7 @@ select:focus {
     display: inline-block;
     float: left;
     margin-right: 30px;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 14px;
     line-height: 30px;
     font-weight: 600;
@@ -2773,7 +2773,7 @@ select:focus {
     font-weight: 700;
 }
 .single-testimonial-style1 .text-box h3 span{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 16px;
     font-weight: 400;
 }
@@ -3095,7 +3095,7 @@ select:focus {
     line-height: 55px;
 }
 .boat-content-box .inner-content-box ul li h3{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
@@ -3269,7 +3269,7 @@ select:focus {
     font-weight: 700;
 }
 .single-blog-post .text-holder .blog-title a{
-    color: #A8D9EA;
+    color: #ffae64;
     transition: all 500ms ease;
 }
 .single-blog-post .text-holder .post-date{
@@ -3337,7 +3337,7 @@ select:focus {
 .footer-area {
     position: relative;
     display: block;
-    background: #006F87;
+    background: #eee;
     z-index: 0;
 }
 
@@ -3431,7 +3431,7 @@ select:focus {
     padding-bottom: 33px;
 }
 .single-footer-widget .title h3 {
-    color: #ffffff;
+    color: #222;
     font-size: 20px;
     line-height: 24px;
     font-weight: 800;
@@ -3447,7 +3447,7 @@ select:focus {
     display: block;    
 }
 .single-footer-widget .our-company-info .text p{
-    color: #b3beca;
+    color: #6d6d6d;
     font-size: 14px;
     line-height: 34px;
     font-weight: 500;
@@ -3515,7 +3515,7 @@ select:focus {
 }
 .single-footer-widget .subscribe-form input[type="email"]:focus + button, 
 .single-footer-widget .subscribe-form button:hover {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 
 
@@ -3539,7 +3539,7 @@ select:focus {
 .single-footer-widget .explore-links li a{
     position: relative;
     display: block;
-    color: #b3beca;
+    color: #6d6d6d;
     font-size: 14px;
     line-height: 34px;
     font-weight: 500;
@@ -3589,7 +3589,7 @@ select:focus {
     position: relative;
     display: block;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
-    background-color: #A8D9EA;
+    background-color: #ffae64;
 }
 .footer-bottom .outer-box {
     position: relative;
@@ -3759,7 +3759,7 @@ select:focus {
 }
 .main-menu.style2 .navigation>li:hover>a, 
 .main-menu.style2 .navigation>li.current>a {
-    color: #A8D9EA;
+    color: #ffae64;
     background: transparent;
 }
 
@@ -4112,7 +4112,7 @@ select:focus {
     font-weight: 600;
 }
 .boats-featured-box ul li h3 a{
-    color: #A8D9EA;
+    color: #ffae64;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -4478,7 +4478,7 @@ select:focus {
     padding: 26px 0 0;
 }
 .single-team-member .title h3{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
@@ -4510,7 +4510,7 @@ select:focus {
 .single-team-member .title .social-links .social-links-style1 li a i {
     background: #f9f6f0;
     border: 1px solid #f9f6f0;
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .single-team-member .title .social-links .social-links-style1 li a:hover i{
     color: #ffffff;
@@ -4579,7 +4579,7 @@ select:focus {
     line-height: 65px;
 }
 .why-choose-content .inner-content ul li h3{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
@@ -4636,7 +4636,7 @@ select:focus {
     align-items: center;
 }
 .choose-img-box .overlay-content .inner h2{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 30px;
     line-height: 36px;
     font-weight: 800;
@@ -5055,7 +5055,7 @@ select:focus {
 	height: 50px;
 	font-size: 16px;
 	line-height: 48px;
-	color: #A8D9EA;
+	color: #ffae64;
 	font-weight: 600;
 	text-align: center;
 	border-radius: 0px;
@@ -5113,7 +5113,7 @@ select:focus {
     padding-right: 60px;
 }
 .blog-single-area .blog-post .single-blog-post.style2 .text-holder .blog-title {
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
@@ -5159,7 +5159,7 @@ select:focus {
     display: inline-block;
     float: left;
     padding-right: 6px;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -5170,7 +5170,7 @@ select:focus {
 }
 .blog-single-area .tag-box .right .social-links-style1 li{}
 .blog-single-area .tag-box .right .social-links-style1 li a i {
-    color: #A8D9EA;
+    color: #ffae64;
     border-color: #f9f6f0;
     background: #f9f6f0;
 }
@@ -5206,7 +5206,7 @@ select:focus {
     padding-left: 30px;
 }
 .blog-single-area .author-box .text-holder h3 {
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 24px;
     font-weight: 700;
     margin: 0 0 20px;
@@ -5230,7 +5230,7 @@ select:focus {
     padding-bottom: 51px;
 }
 .blog-single-area .inner-comment-box .title h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -5267,7 +5267,7 @@ select:focus {
 }
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name{}
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name h3 {
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 22px;
     line-height: 22px;
     font-weight: 700;
@@ -5302,7 +5302,7 @@ select:focus {
     padding-bottom: 51px;
 }
 .add-comment-box .title h3{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -5424,7 +5424,7 @@ select:focus {
     padding-bottom: 35px;
 }
 .sidebar-wrapper .single-sidebar .title h3 {
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 22px;
     line-height: 22px;
     font-weight: 700;
@@ -5504,7 +5504,7 @@ select:focus {
     font-family: 'Spectral', serif;
 }
 .single-sidebar .lat-posts li .title-holder .post-title a{
-    color: #A8D9EA;
+    color: #ffae64;
     transition: all 500ms ease;
 }
 
@@ -5658,7 +5658,7 @@ select:focus {
 .contact-information-box .social-links-style1 li a i {
     background: #f9f6f0;
     border: 1px solid #f9f6f0;
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-information-box .social-links-style1 li a:hover i {
     color: #ffffff;
@@ -5702,7 +5702,7 @@ select:focus {
     text-transform: uppercase;
 }
 .contact-form .title h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 1.2em;
     font-weight: 800;
@@ -5753,42 +5753,42 @@ select:focus {
 
 
 .contact-form form input[type="text"]::-webkit-input-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="text"]:-moz-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="text"]::-moz-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="text"]:-ms-input-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="email"]::-webkit-input-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="email"]:-moz-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="email"]::-moz-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form input[type="email"]:-ms-input-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 
 
 .contact-form form textarea::-webkit-input-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form textarea:-moz-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form textarea::-moz-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .contact-form form textarea:-ms-input-placeholder {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 
 .contact-form form button {
@@ -5881,7 +5881,7 @@ select:focus {
     width: 60px;
     height: 60px;
     background: #ffffff;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 25px;
     line-height: 60px;
     text-align: center;
@@ -5903,7 +5903,7 @@ select:focus {
     width: 60px;
     height: 60px;
     background: #ffffff;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 25px;
     line-height: 60px;
     text-align: center;
@@ -5968,7 +5968,7 @@ select:focus {
     margin-bottom: 59px;
 }
 .yachts-content h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 50px;
     line-height: 50px;
     font-weight: 800;
@@ -5999,7 +5999,7 @@ select:focus {
     display: block;     
 }
 .specifications-content h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;    
@@ -6016,7 +6016,7 @@ select:focus {
     display: block;
     line-height: 30px;
     margin-bottom: 22px;
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Spectral', serif;
@@ -6059,7 +6059,7 @@ select:focus {
     margin: 51px 0 60px;
 }
 .equipment-content h1 {
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -6071,7 +6071,7 @@ select:focus {
     margin-top: 40px;
 }
 .equipment-single h3{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
@@ -6095,7 +6095,7 @@ select:focus {
     display: block;
 }
 .yachts-map-box h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -6124,7 +6124,7 @@ select:focus {
     display: block;    
 }
 .price-box .title h3{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 20px;
     line-height: 20px;
     font-weight: 600;
@@ -6134,14 +6134,14 @@ select:focus {
     display: block;    
 }
 .price-box .rate h1{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
     margin: 0 0 4px;
 }
 .price-box .rate h6{
-    color: #A8D9EA;
+    color: #ffae64;
     font-size: 16px;
     line-height: 16px;
     font-weight: 600;
@@ -6266,10 +6266,10 @@ select:focus {
 }
 
 .main-menu .navigation> li> ul> li> a{
-	color: #A8D9EA;
+	color: #ffae64;
 }
 .main-menu .navigation> li> ul> li> ul> li> a {
-	color: #A8D9EA;
+	color: #ffae64;
 }
 
 
@@ -6280,18 +6280,18 @@ select:focus {
     
 }
 .login-signup-box ul li a:hover{
-    color: #A8D9EA;    
+    color: #ffae64;    
 }
 .header-lawer-left ul li:hover{
-    color: #A8D9EA;    
+    color: #ffae64;    
 }
 
 
 .btn-one:hover{
-    background: #A8D9EA;
+    background: #ffae64;
 }
 .benefits-content ul li:hover .icon-holder{
-    color: #A8D9EA;
+    color: #ffae64;
 }
 
 .single-destination-box .img-holder:before{
@@ -6353,7 +6353,7 @@ select:focus {
 
 
 .main-slider .content .btn-box a:hover{
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .boats-skipper-form button {
     
@@ -6374,7 +6374,7 @@ select:focus {
 }
 
 .boat-image-box:before {
-    background: #A8D9EA;
+    background: #eeeeee;
 }
 
 .owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]:hover{
@@ -6388,7 +6388,7 @@ select:focus {
 
 .boats-skipper-form-area .boats-skipper-form button {
     
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .boats-skipper-form-area .boats-skipper-form .need-skipper label span:before {
     color: #d55227;
@@ -6418,13 +6418,13 @@ select:focus {
 
 
 .video-holder-box .icon .inner a span:before {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 .single-destination-box-style2 .img-holder .overlay-content {
     
 }
 .single-destination-box-style2 .img-holder .inner .zoom-button a span:before{
-    color: #A8D9EA;
+    color: #ffae64;
 }
 
 
@@ -6447,7 +6447,7 @@ select:focus {
          
 }
 .single-history-box .img-box .year-box h1 {
-    color: #A8D9EA;
+    color: #ffae64;
 }
 
 
@@ -6471,8 +6471,8 @@ select:focus {
 .btn_white-home{
         position: relative;
     display: inline-block;
-    background-color: #fff;
-    color: #006F87;
+    background-color: #fe943c;
+    color: #000;
     font-size: 13px;
     line-height: 16px;
     font-weight: 600;
