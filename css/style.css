@@ -1342,7 +1342,7 @@ select:focus {
     width: 100%;
     padding: 0 100px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .9);
     backdrop-filter: blur(10px);
 }
 .header-upper .container-box .outer-box {
@@ -3057,7 +3057,7 @@ select:focus {
 .boat-content-box {
     position: relative;
     display: block;
-    margin-right: 40px;
+    margin-left: 60px;
 }
 .boat-content-box .sec-title {
     padding-bottom: 33px;
@@ -3101,7 +3101,14 @@ select:focus {
     font-weight: 600;
     margin: 11px 0 0;
 }
-
+@media only screen and (max-width:768px){
+    .boat-content-box{
+        padding-top: 100px;
+    }
+    .sec-title p{
+        padding-top: 40px;
+    }
+}
 .boat-image-box{
     position: relative;
     display: block;
@@ -3113,9 +3120,9 @@ select:focus {
 .boat-image-box:before{
     position: absolute;
     top: -120px;
-    left: 250px;
+    right: 250px;
     bottom: -120px;
-    right: -5000px;
+    left: -5000px;
     content: "";
     z-index: -1;
 }
