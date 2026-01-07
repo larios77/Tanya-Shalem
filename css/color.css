@@ -14,7 +14,6 @@
 .main-menu .navigation> li> ul> li> a:hover,
 .main-menu .navigation> li> ul> li> ul> li> a:hover,
 .single-blog-post .text-holder .blog-title a:hover,
-.mobile-menu .navigation li.current > a,
 .mobile-menu .navigation li > a:hover,
 .mobile-menu .social-links li a:hover,
 .boats-featured-box ul li:hover h3 a,
@@ -26,14 +25,12 @@
 .contact-information-box .contact-us li a:hover,
 .main-menu .navigation>li>ul>li>ul>li a:before,
 .main-menu .navigation> li> ul> li> a:before{
-  color: #d55227;
+  color: #006F87;
 }
 
 /** background **/
 
 .thm_bgclr3,
-.main-menu .navigation>li:hover>a,
-.main-menu .navigation>li.current>a,
 .social-links-style1 li a:hover i,
 .boats-skipper-form button:hover,
 .single-testimonial-style1 .img-box .bg-color,
@@ -48,7 +45,7 @@
 .sidebar-search-box .search-form input[type="text"]:focus + button,
 .sidebar-search-box .search-form button:hover,
 .contact-information-box .social-links-style1 li a:hover i{
-  background-color: #d55227;    
+  background-color: #006F87;    
 }
 
 /** border-color **/
@@ -59,24 +56,24 @@
 .contact-form form input[type="email"]:focus,
 .contact-form form textarea:focus,
 .blog-single-area .tag-box .right .social-links-style1 li a:hover i{
-  border-color: #d55227;    
+  border-color: #006F87;    
 }
 .contact-information-box .social-links-style1 li a:hover i {
-  border: 1px solid #d55227;
+  border: 1px solid #006F87;
 }
 .sidebar-search-box .search-form input[type="text"]:focus {
-  border: 1px solid #d55227;
+  border: 1px solid #006F87;
 }
 .mobile-menu .navigation li > a:before{
-  border-left: 5px solid #d55227;
+  border-left: 5px solid #006F87;
 }
 
 
 .btn-one {
-  background: #d55227;
+  background: #006F87;
 }
 .thm-bgclr1{
-  background-color: #d55227;
+  background-color: #006F87;
 }
 
 
@@ -101,7 +98,7 @@
 .sidebar-search-box .search-form button,
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .reply-button a,
 .contact-information-box .contact-us li a{
-  color: #d55227;
+  color: #006F87;
 }
 
 /** background **/
@@ -122,7 +119,7 @@
 .styled-pagination li.next a:hover,
 .add-comment-box #add-comment-form button,
 .contact-form form button{
-  background-color: #d55227;
+  background-color: #006F87;
 }
 
 /** border-color **/
@@ -131,7 +128,7 @@
 .styled-pagination li a.active,
 .styled-pagination li.prev a:hover,
 .styled-pagination li.next a:hover{
-  border-color: #d55227;
+  border-color: #006F87;
 }
 
 
@@ -153,11 +150,10 @@
 .thm-clr1,
 .siingle-yachts-box .title-holder h2 a:hover,
 .single-blog-post .meta-info li a:hover,
-.single-footer-widget .footer-contact-info-box a,
 .breadcrumb-area .breadcrumb-menu ul li a:hover,
 .breadcrumb-area .breadcrumb-menu ul li.active,
 .yachts-details-area .nav-link li#slider-next a:hover i{
-  color: #d55227;
+  color: #006F87;
 }
 
 /** background **/
@@ -173,11 +169,11 @@
 .single-destination-box-style2 .img-holder .inner .zoom-button a span:before,
 .single-history-box .img-box .year-box h1,
 .single-testimonial-style1 .img-box .quote-icon{
-  background-color: #d55227;
+  background-color: #006F87;
 }
 
 /** border-color **/
 
 .single-team-member .title .social-links .social-links-style1 li a:hover i{
-  border-color: #d55227;
+  border-color: #006F87;
 }

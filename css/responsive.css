@@ -1695,7 +1695,7 @@
         font-size: 50px;
         line-height: 1.1em;
         font-weight: 800;
-        margin: 31px 0 47px;
+        margin: 200px 0 47px;
     }
 
 
@@ -1734,13 +1734,18 @@
 
 }
 
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+    .header-upper-left .logo a img{
+        width: 200px;
+    }
+}
 @media only screen and (min-width: 500px) and (max-width: 767px) {
-
+    
     .main-slider.style1 .content .big-title {
         font-size: 40px;
         line-height: 1.1em;
         font-weight: 700;
-        margin: 32px 0 39px;
+        margin: 200px 0 39px;
     }
 
     .main-slider .owl-theme .owl-nav .owl-prev {
@@ -1792,7 +1797,7 @@
         font-size: 40px;
         line-height: 1.1em;
         font-weight: 700;
-        margin: 32px 0 47px;
+        margin: 250px 0 47px;
     }
 
     .discover-area {
