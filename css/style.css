@@ -177,7 +177,7 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
-    color: #000;
+    color: #fff;
     font-size: 13px;
     line-height: 16px;
     font-weight: 600;
@@ -394,7 +394,7 @@ li{
     background: #f9f6f0;
     border: 1px solid #f9f6f0;  
     border-radius: 50%;
-    color: #ffae64;
+    color: #D35125;
     font-size: 30px;
     font-weight: 600;
     line-height: 58px;
@@ -530,7 +530,7 @@ li{
     transition: all 500ms ease;
 }
 .accordion-box .accordion .accord-btn h4 {
-    color: #ffae64;
+    color: #D35125;
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;
@@ -932,7 +932,7 @@ select:focus {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    color: #ffae64;
+    color: #D35125;
     font-size: 14px;
     font-weight: 400;
     line-height: 38px;
@@ -978,7 +978,11 @@ select:focus {
 }
 
 
-
+.nav-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*** 
 ========================================
     Mobile Menu
@@ -1363,6 +1367,9 @@ select:focus {
     position: relative;
     display: block;
 }
+.header-upper-left .logo a img, .single-footer-widget .footer-contact-info-box .footer-logo a img{
+    width: 100px;
+}
 .header-upper-left .logo a{
     position: relative;
     display: inline-block; 
@@ -1380,7 +1387,7 @@ select:focus {
 .main-menu {
     position: relative;
     display: block;
-    float: left;
+    padding-right: 250px;
 }
 .main-menu .navbar-collapse{
 	padding:0px;
@@ -1622,8 +1629,6 @@ select:focus {
 .menu-right-content {
     position: relative;
     display: block;
-    float: right;
-    padding-right: 80px;
 }
 .menu-right-content .header-social-links {
     position: relative;
@@ -1825,7 +1830,7 @@ select:focus {
     padding-right: 10px;
 }
 .header-lawer-left ul li b{
-    color: #ffae64;
+    color: #D35125;
     font-size: 15px;
     font-weight: 600;
 }
@@ -1838,7 +1843,7 @@ select:focus {
     transition-delay: 0.1s;
 }
 .header-lawer-left ul li a:hover{
-    color: #ffae64;    
+    color: #D35125;    
 }
 
 
@@ -2034,7 +2039,7 @@ select:focus {
 .main-slider .content .btn-box a{
     position: relative;
     display: inline-block;
-    color: #000;
+    color: #fff;
     font-size: 13px;
     line-height: 16px;
     font-weight: 600;
@@ -2076,7 +2081,7 @@ select:focus {
     border-radius: 50%;
     border: none;
     text-align: center;
-    color: #ffae64;
+    color: #D35125;
     font-size: 30px;
     line-height: 60px;
     font-weight: 700;
@@ -2104,7 +2109,7 @@ select:focus {
     border-radius: 50%;
     border: none;
     text-align: center;
-    color: #ffae64;
+    color: #D35125;
     font-size: 30px;
     line-height: 60px;
     font-weight: 700;
@@ -2206,7 +2211,7 @@ select:focus {
     letter-spacing: 3px;
 } 
 .about-style1-left-content .text-holder h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 60px;
     line-height: 1.2em;
     font-weight: 800;
@@ -2252,7 +2257,7 @@ select:focus {
     text-transform: uppercase;
 }
 .boats-skipper-search-box .title h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 1.2em;
     font-weight: 800;
@@ -2491,8 +2496,8 @@ select:focus {
 .yachts-area{
     position: relative;
     display: block;
-    background: #eee;
-    padding: 120px 0 120px;
+    background: #fff;
+    padding: 120px 0 300px;
     z-index: 1;
 }
 
@@ -2543,13 +2548,13 @@ select:focus {
     z-index: 2;
 }
 .siingle-yachts-box .img-holder .rate-box h5{
-    color: #ffae64;
+    color: #D35125;
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
 }
 .siingle-yachts-box .img-holder .rate-box h6{
-    color: #ffae64;
+    color: #D35125;
     font-size: 10px;
     line-height: 12px;
     font-weight: 600;
@@ -2561,7 +2566,9 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 35px 40px 0;
+    padding: 35px;
+    min-height: 324px;
+    height: auto;
     -webkit-box-shadow: 0px 3px 8px 1px #f1eee8; 
     box-shadow: 0px 3px 8px 1px #f1eee8;
     transition: all 200ms linear;
@@ -2578,7 +2585,7 @@ select:focus {
     margin: 0 0 3px;
 }
 .siingle-yachts-box .title-holder h2 a{
-    color: #ffae64;
+    color: #D35125;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -2608,7 +2615,7 @@ select:focus {
     display: inline-block;
     float: left;
     margin-right: 30px;
-    color: #ffae64;
+    color: #D35125;
     font-size: 14px;
     line-height: 30px;
     font-weight: 600;
@@ -2770,10 +2777,11 @@ select:focus {
 .single-testimonial-style1 .text-box h3{
     font-size: 26px;
     line-height: 30px;
+color: #222 !important;
     font-weight: 700;
 }
 .single-testimonial-style1 .text-box h3 span{
-    color: #ffae64;
+    color: #222;
     font-size: 16px;
     font-weight: 400;
 }
@@ -3057,7 +3065,6 @@ select:focus {
 .boat-content-box {
     position: relative;
     display: block;
-    margin-left: 60px;
 }
 .boat-content-box .sec-title {
     padding-bottom: 33px;
@@ -3095,7 +3102,7 @@ select:focus {
     line-height: 55px;
 }
 .boat-content-box .inner-content-box ul li h3{
-    color: #ffae64;
+    color: #D35125;
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
@@ -3126,20 +3133,10 @@ select:focus {
     content: "";
     z-index: -1;
 }
-.boat-image-box:after{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    border: 20px solid #ffffff;
-    content: "";
-    transition: all 0.5s ease-in-out 0s;
-    z-index: 2;
-}
 .boat-image-box img{
-  width: 100%;
+  width: 80%;
   transition: all 1500ms ease;    
+  border: 12px solid #fff;
 }
 .boat-image-box:hover img{
     opacity: 0.99;
@@ -3276,7 +3273,7 @@ select:focus {
     font-weight: 700;
 }
 .single-blog-post .text-holder .blog-title a{
-    color: #ffae64;
+    color: #D35125;
     transition: all 500ms ease;
 }
 .single-blog-post .text-holder .post-date{
@@ -3522,7 +3519,7 @@ select:focus {
 }
 .single-footer-widget .subscribe-form input[type="email"]:focus + button, 
 .single-footer-widget .subscribe-form button:hover {
-    color: #ffae64;
+    color: #D35125;
 }
 
 
@@ -3596,7 +3593,7 @@ select:focus {
     position: relative;
     display: block;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
-    background-color: #ffae64;
+    background-color: #D35125;
 }
 .footer-bottom .outer-box {
     position: relative;
@@ -3766,7 +3763,7 @@ select:focus {
 }
 .main-menu.style2 .navigation>li:hover>a, 
 .main-menu.style2 .navigation>li.current>a {
-    color: #ffae64;
+    color: #D35125;
     background: transparent;
 }
 
@@ -4119,7 +4116,7 @@ select:focus {
     font-weight: 600;
 }
 .boats-featured-box ul li h3 a{
-    color: #ffae64;
+    color: #D35125;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -4485,7 +4482,7 @@ select:focus {
     padding: 26px 0 0;
 }
 .single-team-member .title h3{
-    color: #ffae64;
+    color: #D35125;
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
@@ -4517,7 +4514,7 @@ select:focus {
 .single-team-member .title .social-links .social-links-style1 li a i {
     background: #f9f6f0;
     border: 1px solid #f9f6f0;
-    color: #ffae64;
+    color: #D35125;
 }
 .single-team-member .title .social-links .social-links-style1 li a:hover i{
     color: #ffffff;
@@ -4548,6 +4545,7 @@ select:focus {
     position: relative;
     display: block;
     background: #f9f6f0;
+    padding-top: 80px;
 }
 .why-choose-content{
     position: relative;
@@ -4586,7 +4584,7 @@ select:focus {
     line-height: 65px;
 }
 .why-choose-content .inner-content ul li h3{
-    color: #ffae64;
+    color: #D35125;
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
@@ -4602,6 +4600,9 @@ select:focus {
     display: block;
     width: 100%;
     height: 100%;
+}
+.choose-img-box img{
+    border: 12px solid #fff;
 }
 .choose-img-box .image-bg {
     position: absolute;
@@ -4643,7 +4644,7 @@ select:focus {
     align-items: center;
 }
 .choose-img-box .overlay-content .inner h2{
-    color: #ffae64;
+    color: #D35125;
     font-size: 30px;
     line-height: 36px;
     font-weight: 800;
@@ -4899,16 +4900,6 @@ select:focus {
     padding: 120px 0 70px;
     z-index: 1;
 }
-.services-area:before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 320px;
-    background: #ffffff;
-    content: "";
-    z-index: -1;
-}
 
 .single-service-style1{
     position: relative;
@@ -5062,7 +5053,7 @@ select:focus {
 	height: 50px;
 	font-size: 16px;
 	line-height: 48px;
-	color: #ffae64;
+	color: #D35125;
 	font-weight: 600;
 	text-align: center;
 	border-radius: 0px;
@@ -5120,7 +5111,7 @@ select:focus {
     padding-right: 60px;
 }
 .blog-single-area .blog-post .single-blog-post.style2 .text-holder .blog-title {
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
@@ -5166,7 +5157,7 @@ select:focus {
     display: inline-block;
     float: left;
     padding-right: 6px;
-    color: #ffae64;
+    color: #D35125;
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -5177,7 +5168,7 @@ select:focus {
 }
 .blog-single-area .tag-box .right .social-links-style1 li{}
 .blog-single-area .tag-box .right .social-links-style1 li a i {
-    color: #ffae64;
+    color: #D35125;
     border-color: #f9f6f0;
     background: #f9f6f0;
 }
@@ -5213,7 +5204,7 @@ select:focus {
     padding-left: 30px;
 }
 .blog-single-area .author-box .text-holder h3 {
-    color: #ffae64;
+    color: #D35125;
     font-size: 24px;
     font-weight: 700;
     margin: 0 0 20px;
@@ -5237,7 +5228,7 @@ select:focus {
     padding-bottom: 51px;
 }
 .blog-single-area .inner-comment-box .title h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -5274,7 +5265,7 @@ select:focus {
 }
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name{}
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name h3 {
-    color: #ffae64;
+    color: #D35125;
     font-size: 22px;
     line-height: 22px;
     font-weight: 700;
@@ -5309,7 +5300,7 @@ select:focus {
     padding-bottom: 51px;
 }
 .add-comment-box .title h3{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -5431,7 +5422,7 @@ select:focus {
     padding-bottom: 35px;
 }
 .sidebar-wrapper .single-sidebar .title h3 {
-    color: #ffae64;
+    color: #D35125;
     font-size: 22px;
     line-height: 22px;
     font-weight: 700;
@@ -5511,7 +5502,7 @@ select:focus {
     font-family: 'Spectral', serif;
 }
 .single-sidebar .lat-posts li .title-holder .post-title a{
-    color: #ffae64;
+    color: #D35125;
     transition: all 500ms ease;
 }
 
@@ -5665,7 +5656,7 @@ select:focus {
 .contact-information-box .social-links-style1 li a i {
     background: #f9f6f0;
     border: 1px solid #f9f6f0;
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-information-box .social-links-style1 li a:hover i {
     color: #ffffff;
@@ -5709,7 +5700,7 @@ select:focus {
     text-transform: uppercase;
 }
 .contact-form .title h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 1.2em;
     font-weight: 800;
@@ -5760,42 +5751,42 @@ select:focus {
 
 
 .contact-form form input[type="text"]::-webkit-input-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="text"]:-moz-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="text"]::-moz-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="text"]:-ms-input-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="email"]::-webkit-input-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="email"]:-moz-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="email"]::-moz-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form input[type="email"]:-ms-input-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 
 
 .contact-form form textarea::-webkit-input-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form textarea:-moz-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form textarea::-moz-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 .contact-form form textarea:-ms-input-placeholder {
-    color: #ffae64;
+    color: #D35125;
 }
 
 .contact-form form button {
@@ -5888,7 +5879,7 @@ select:focus {
     width: 60px;
     height: 60px;
     background: #ffffff;
-    color: #ffae64;
+    color: #D35125;
     font-size: 25px;
     line-height: 60px;
     text-align: center;
@@ -5910,7 +5901,7 @@ select:focus {
     width: 60px;
     height: 60px;
     background: #ffffff;
-    color: #ffae64;
+    color: #D35125;
     font-size: 25px;
     line-height: 60px;
     text-align: center;
@@ -5975,7 +5966,7 @@ select:focus {
     margin-bottom: 59px;
 }
 .yachts-content h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 50px;
     line-height: 50px;
     font-weight: 800;
@@ -6006,7 +5997,7 @@ select:focus {
     display: block;     
 }
 .specifications-content h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;    
@@ -6023,7 +6014,7 @@ select:focus {
     display: block;
     line-height: 30px;
     margin-bottom: 22px;
-    color: #ffae64;
+    color: #D35125;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Spectral', serif;
@@ -6066,7 +6057,7 @@ select:focus {
     margin: 51px 0 60px;
 }
 .equipment-content h1 {
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -6078,7 +6069,7 @@ select:focus {
     margin-top: 40px;
 }
 .equipment-single h3{
-    color: #ffae64;
+    color: #D35125;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
@@ -6102,7 +6093,7 @@ select:focus {
     display: block;
 }
 .yachts-map-box h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
@@ -6131,7 +6122,7 @@ select:focus {
     display: block;    
 }
 .price-box .title h3{
-    color: #ffae64;
+    color: #D35125;
     font-size: 20px;
     line-height: 20px;
     font-weight: 600;
@@ -6141,14 +6132,14 @@ select:focus {
     display: block;    
 }
 .price-box .rate h1{
-    color: #ffae64;
+    color: #D35125;
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
     margin: 0 0 4px;
 }
 .price-box .rate h6{
-    color: #ffae64;
+    color: #D35125;
     font-size: 16px;
     line-height: 16px;
     font-weight: 600;
@@ -6273,10 +6264,10 @@ select:focus {
 }
 
 .main-menu .navigation> li> ul> li> a{
-	color: #ffae64;
+	color: #D35125;
 }
 .main-menu .navigation> li> ul> li> ul> li> a {
-	color: #ffae64;
+	color: #D35125;
 }
 
 
@@ -6287,18 +6278,18 @@ select:focus {
     
 }
 .login-signup-box ul li a:hover{
-    color: #ffae64;    
+    color: #D35125;    
 }
 .header-lawer-left ul li:hover{
-    color: #ffae64;    
+    color: #D35125;    
 }
 
 
 .btn-one:hover{
-    background: #ffae64;
+    background: #D35125;
 }
 .benefits-content ul li:hover .icon-holder{
-    color: #ffae64;
+    color: #D35125;
 }
 
 .single-destination-box .img-holder:before{
@@ -6358,9 +6349,8 @@ select:focus {
     color: #d55227;
 }
 
-
 .main-slider .content .btn-box a:hover{
-    color: #ffae64;
+    background-color: #D35125;
 }
 .boats-skipper-form button {
     
@@ -6395,7 +6385,7 @@ select:focus {
 
 .boats-skipper-form-area .boats-skipper-form button {
     
-    color: #ffae64;
+    color: #D35125;
 }
 .boats-skipper-form-area .boats-skipper-form .need-skipper label span:before {
     color: #d55227;
@@ -6425,13 +6415,13 @@ select:focus {
 
 
 .video-holder-box .icon .inner a span:before {
-    color: #ffae64;
+    color: #D35125;
 }
 .single-destination-box-style2 .img-holder .overlay-content {
     
 }
 .single-destination-box-style2 .img-holder .inner .zoom-button a span:before{
-    color: #ffae64;
+    color: #D35125;
 }
 
 
@@ -6454,7 +6444,7 @@ select:focus {
          
 }
 .single-history-box .img-box .year-box h1 {
-    color: #ffae64;
+    color: #D35125;
 }
 
 
@@ -6478,8 +6468,8 @@ select:focus {
 .btn_white-home{
         position: relative;
     display: inline-block;
-    background-color: #fe943c;
-    color: #000;
+    background-color: #95351F;
+    color: #fff;
     font-size: 13px;
     line-height: 16px;
     font-weight: 600;
@@ -6491,6 +6481,10 @@ select:focus {
     transition-delay: 0.1s;
     font-family: 'Poppins', sans-serif;
     z-index: 1;
+}
+.btn_white-home:hover{
+    background-color: #D35125;
+    color: #fff;
 }
 /* Base Navigation Styling */
 .navigation {
