@@ -538,9 +538,7 @@ function testimonialCarousel () {
                 '<span class="flaticon-arrow"></span>',
                 '<span class="flaticon-arrow"></span>'
             ],
-            autoplayHoverPause: false,
-            autoplay: 9000,
-            smartSpeed: 2000,
+            smartSpeed: 4000,
             responsive:{
                 0:{
                     items:1
