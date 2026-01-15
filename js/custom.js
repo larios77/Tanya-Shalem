@@ -538,7 +538,7 @@ function testimonialCarousel () {
                 '<span class="flaticon-arrow"></span>',
                 '<span class="flaticon-arrow"></span>'
             ],
-            smartSpeed: 4000,
+            smartSpeed: 1000,
             responsive:{
                 0:{
                     items:1

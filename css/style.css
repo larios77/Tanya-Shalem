@@ -198,6 +198,7 @@ li {
     line-height: 16px;
     font-weight: 600;
     text-transform: uppercase;
+    border: 1px solid transparent;
     letter-spacing: 2px;
     padding: 27px 60px 27px;
     border-radius: 0px;
@@ -209,10 +210,29 @@ li {
 
 
 .btn-white{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    padding: 27px 60px 27px;
+    border-radius: 0px;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
     background-color: #fff;
     color: #d55227;
+    border: 1px solid transparent;
 }
-
+.btn-white:hover{
+    background-color: #d55227;
+    color: #fff;
+    border: 1px solid #fff;
+}
 .btn-two {
     position: relative;
     display: inline-block;
@@ -1179,11 +1199,13 @@ select:focus {
 .mobile-menu .nav-logo {
     position: relative;
     padding: 30px 25px;
-    text-align: left;
+    text-align: center;
     padding-top: 80px;
     background-color: #fff;
 }
-
+.mobile-menu .nav-logo img{
+    width: 120px;
+}
 .mobile-menu .nav-logo a {
     position: relative;
     display: inline-block;
@@ -1491,6 +1513,7 @@ select:focus {
     padding: 0 100px;
     margin: 0 auto;
     background: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
 }
 
 .header-upper .container-box .outer-box {
@@ -2982,6 +3005,12 @@ select:focus {
 .single-testimonial-style1 {
     position: relative;
     display: block;
+    background: #fff;
+    box-shadow: 20px 20px 0px #D35125;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 25px;
+    border-radius: 8px;
+    margin: 0 20px;
 }
 
 .single-testimonial-style1 .img-box {
@@ -5431,8 +5460,8 @@ select:focus {
     position: relative;
     display: block;
     background: #f9f6f0;
-    padding: 120px 0 70px;
-    z-index: 1;
+    padding: 180px 0 70px;
+    z-index: 0;
 }
 
 .single-service-style1 {
@@ -6459,6 +6488,7 @@ select:focus {
     transition: all 200ms linear;
     transition-delay: 0.1s;
     font-family: 'Poppins', sans-serif;
+    border: 1px solid transparent;
 }
 
 
@@ -6996,7 +7026,9 @@ select:focus {
 
 
 .btn-one:hover {
-    background: #D35125;
+        background: #ffffff;
+    border: 1px solid #d35125;
+    color: #d35125;
 }
 
 .benefits-content ul li:hover .icon-holder {
@@ -7008,7 +7040,9 @@ select:focus {
 .contact-form form button {}
 
 .contact-form form button:hover {
-    background: #044c97;
+    background: #fff;
+    border: 1px solid #D35125;
+    color: #D35125;
 }
 
 .scroll-top {
@@ -7155,7 +7189,7 @@ select:focus {
 .btn_white-home {
     position: relative;
     display: inline-block;
-    background-color: #95351F;
+    background-color: #D35125;
     color: #fff;
     font-size: 13px;
     line-height: 16px;
@@ -7168,11 +7202,13 @@ select:focus {
     transition-delay: 0.1s;
     font-family: 'Poppins', sans-serif;
     z-index: 1;
+    border: 1px solid transparent;
 }
 
 .btn_white-home:hover {
-    background-color: #D35125;
-    color: #fff;
+    background-color: #fff;
+    color: #D35125;
+    border: 1px solid #D35125;
 }
 
 /* Base Navigation Styling */
@@ -7284,7 +7320,69 @@ select:focus {
 }
 
 .about-image-breadcrumb {
-    height: 550px;
+    height: 450px;
     object-fit: cover;
     object-position: right;
+    transform: skewX(-7deg);
+    box-shadow: 20px 20px 0 #D35125;
+}
+.container__hero{
+    max-width: 1705px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 220px 0 140px 0;
+}
+.hero__title{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Spectral', serif;
+    margin-bottom: 10px;
+}
+.hero__subtitle{
+    font-size: 26px;
+}
+.hero__paragraph{
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+}
+.container__hero .btn-box{
+    cursor: pointer;
+    margin-top: 35px !important;
+}
+.container__hero .btn-box a{
+        position: relative;
+    color: #fff !important;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    padding: 27px 60px 27px;
+    border-radius: 0px;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D35125;
+}
+.container__hero .btn-box a:hover{
+    background-color: #fff;
+    color: #D35125 !important;
+    border: 1px solid #D35125;
+}
+.breadcrumb__text-content{
+    display: flex;
+    align-items: center;
+}
+.breadcrumb__text-content a{
+    color: #222;
+}
+.breadcrumb__text-content i{
+    margin: 0 20px;
+    font-size: 22px;
+}
+.active__bread{
+    color: #D35125 !important;
 }
