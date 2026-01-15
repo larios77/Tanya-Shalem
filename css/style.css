@@ -7334,6 +7334,11 @@ select:focus {
     margin: auto;
     padding: 220px 0 140px 0;
 }
+@media screen and (max-width:1700px){
+    .container__hero{
+        width: 90%;
+    }
+}
 .hero__title{
     font-size: 70px;
     font-weight: bold;
