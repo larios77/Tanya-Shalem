@@ -1228,7 +1228,7 @@ select:focus {
     height: 100%;
     max-height: 100%;
     overflow-y: auto;
-    background: #006F87;
+    background: #eee;
     padding: 0px 0px;
     z-index: 5;
     opacity: 0;
@@ -1308,7 +1308,7 @@ select:focus {
     position: relative;
     display: block;
     padding: 10px 25px;
-    color: #ffffff;
+    color: #000;
     font-size: 15px;
     line-height: 24px;
     font-weight: 500;
@@ -1338,7 +1338,7 @@ select:focus {
 }
 
 .mobile-menu .navigation li.current>a {
-    color: #fff;
+    color: #d55227;
 }
 
 .mobile-menu .navigation li ul li>a {
@@ -1393,7 +1393,7 @@ select:focus {
 
 .mobile-menu .social-links li a {
     position: relative;
-    color: #ffffff;
+    color: #000;
     font-size: 20px;
     line-height: 32px;
     -webkit-transition: all 500ms ease;
