@@ -577,8 +577,6 @@ function historyCarousel () {
                 '<span class="flaticon-arrow"></span>',
                 '<span class="flaticon-arrow"></span>'
             ],
-            autoplayHoverPause: false,
-            autoplay: 6000,
             smartSpeed: 1000,
             responsive:{
                 0:{

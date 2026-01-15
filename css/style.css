@@ -3102,7 +3102,7 @@ select:focus {
 }
 
 .single-testimonial-style1 .text-box h3 span {
-    color: #949494;
+    color: #3a3a3a;
     font-size: 16px;
     font-weight: 400;
 }
@@ -7334,6 +7334,10 @@ select:focus {
     margin: auto;
     padding: 220px 0 140px 0;
 }
+.slogan-area.style2{
+    background-color: #fff;
+}
+
 @media screen and (max-width:1700px){
     .container__hero{
         width: 90%;
