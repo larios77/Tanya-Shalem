@@ -2969,7 +2969,7 @@ select:focus {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 200px;
+    padding: 40px 0;
 }
 
 .slogan-content .title h1 {
@@ -6389,6 +6389,7 @@ select:focus {
 
 .contact-form form input[type="text"],
 .contact-form form input[type="email"],
+.contact-form form input[type="tel"],
 .contact-form form textarea {
     position: relative;
     display: block;
@@ -6417,6 +6418,9 @@ select:focus {
 }
 
 .contact-form form input[type="email"]:focus {
+    color: #222222;
+}
+.contact-form form input[type="tel"]:focus {
     color: #222222;
 }
 
@@ -6454,6 +6458,21 @@ select:focus {
 }
 
 .contact-form form input[type="email"]:-ms-input-placeholder {
+    color: #222;
+}
+.contact-form form input[type="tel"]::-webkit-input-placeholder {
+    color: #222;
+}
+
+.contact-form form input[type="tel"]:-moz-placeholder {
+    color: #222;
+}
+
+.contact-form form input[type="tel"]::-moz-placeholder {
+    color: #222;
+}
+
+.contact-form form input[type="tel"]:-ms-input-placeholder {
     color: #222;
 }
 
@@ -7320,9 +7339,9 @@ select:focus {
 }
 
 .about-image-breadcrumb {
-    height: 450px;
+    height: 400px;
     object-fit: cover;
-    object-position: right;
+    object-position:center;
     transform: skewX(-7deg);
     box-shadow: 20px 20px 0 #D35125;
 }
